@@ -1,0 +1,494 @@
+/* 
+    Author: Aylin;
+    Theme: Pages;
+    version: 1.0;
+*/
+
+/* CSS for All */
+@font-face {
+    font-family: "LittleBoy";
+    src: url(../fuentes/LittleBoy.otf) format("truetype");
+
+    font-family: 'Exo 2';
+    src: url(../fuentes/Exo2-ExtraLight.otf);
+}
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.Mycontainer{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    /*border: 1px solid red;*/
+}
+.title{
+    font-family: 'LittleBoy';
+    font-size: 17rem;
+    
+}
+.subtitle{
+    font-size: 2rem;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+.text-black {
+    color: black;
+    background-color: rgb(255,255,255,0.8);
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.Mybtn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.Mybtn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.Mybtn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+.Mybtn-secondary {
+    margin-top: 10%;
+    padding: 7%;
+    background-color: #29e39c;
+    color: black;
+    cursor: pointer;
+}
+
+.Mybtn-secondary:hover {
+    color: black;
+    background-color: #016e44;
+}
+h2{
+    color: #2f3542;
+    font-size: 4rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    color: #3a3a3a;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+/* CSSS for navbar section */
+.navbar {
+    background-color: rgb(106, 206, 137);
+    /*border: 1px solid red;*/
+}
+.logo{
+    float: left;
+    width: 7%;
+}
+.menu{
+    line-height: 70px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+/* CSS for Food SEarch Section */
+
+.register{
+    background-image: url(../images/presentacion2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5% 0% 35% 10%;
+}
+.box-register{
+    border: 1px solid white;
+    float: right;
+    width: 12%;
+    padding: 5% 7% 5% 5%;
+    margin: 0 8%;
+    text-align: left;
+    background-color: rgb(250, 237, 143,0.8);
+    border-radius: 10%;
+    
+}
+.namelabel {
+    color: black;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.8rem;
+    margin: 0% 10% 0% 10%;
+}
+
+.field {
+    width: 100%;
+    padding: 12%;
+    text-align: left;
+    margin-top: 10%;
+}
+
+
+
+.food-search {
+    background-image: url(../images/presentacion1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+/*CSS for Quienes somos*/
+.who{
+    /*background-color: #bfffe6;
+    background-color: #96bfe6;
+    background-color: #2dbc94;*/
+    background-color: white;
+}
+.slider-frame {
+    width: 40%;
+    height: auto;
+    margin: 1% 0 1% 1%;
+    overflow: hidden;
+    float: left;
+}
+
+.slider-frame ul {
+    overflow: hidden;
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 16s infinite alternate-reverse ease-in-out;
+}
+
+.slider-frame li {
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame img {
+    width: 100%;
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0%
+    }
+
+    20% {
+        margin-left: 0%
+    }
+
+    25% {
+        margin-left: -100%
+    }
+
+    45% {
+        margin-left: -100%
+    }
+
+    50% {
+        margin-left: -200%
+    }
+
+    70% {
+        margin-left: -200%
+    }
+
+    75% {
+        margin-left: -300%
+    }
+
+    95% {
+        margin-left: -300%
+    }
+}
+.concept{
+    margin-top: 1%;
+    margin-left: 45%;
+    padding-left: 0%;
+    text-align: justify;
+}
+/* CSS for Categories */
+.categories{
+    padding: 1% 0;
+    background-color: rgb(106, 206, 137);
+}
+.categoriesPage{
+    padding: 1% 0;
+    background-color: white;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Food Menu */
+.food-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 43%;
+    height: 53%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* CSS for Social */
+.social{
+    background-color: rgb(138, 140, 138);
+}
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+/*Footer*/
+.footer{
+    background-color: rgb(138, 140, 138);
+}
+/* Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+/*CSS for Q$A*/
+.list-questions{
+    background-color: #ececec;
+}
+.question{
+    padding: 1.5%;
+    background-color: #bfffe6;
+    border-radius: 15%;
+}
+.answer {
+    padding: 1.5%;
+    background-color: white;
+    border-radius: 15%;
+    
+}
+/* CSS login*/
+.login-cover {
+    background-image: url(../images/coverLogin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5% 0% 15% 0%;
+}
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .Mybtn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+    .slider-frame{
+        margin-left: 30%;
+    }
+    .concept{
+        margin: 0;
+        float: left;
+    }
+    .register {
+        background-image: url(../images/presentacion2.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 7% 10% 20% 10%;
+    }
+    
+    .namelabel {
+        color: black;
+        font-family: 'Exo 2', sans-serif;
+        font-size: 1.4rem;
+        margin: 0% 10% 0% 10%;
+    }
+    
+    .field {
+        width: 80%;
+        padding: 12%;
+        text-align: left;
+        margin-top: 7%;
+    }
+    .box-register {
+        border: 1px solid white;
+        float: none;
+        width: 80%;
+        padding: 4% 17% 5% 10%;
+        margin: 0 0%;
+        text-align: left;
+        background-color: rgb(250, 237, 143, 0.8);
+        border-radius: 10%;
+
+    }
+    .slider-frame {
+        width: 90%;
+        height: auto;
+        margin: 1% 0 1% 7%;
+        overflow: hidden;
+        float: left;
+    }
+    .title {
+        font-family: 'LittleBoy';
+        font-size: 7rem;
+
+    }
+        
+}
