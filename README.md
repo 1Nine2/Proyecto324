@@ -2,6 +2,7 @@
 Integrantes:
 - Aylin Sarai Botelo Quino
 - Micaela Jhoselin Saenz Molina
+- Samuel Elias Flores Santalla
 
 
 
