@@ -1,7 +1,6 @@
 # Proyecto324
 Integrantes:
--
--
+- Aylin Sarai Botelo Quino
 - Micaela Jhoselin Saenz Molina
 
 
