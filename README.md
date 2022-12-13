@@ -45,5 +45,11 @@ Flujo para Realizar una Donacion
 
 ![flujo Donar Fundacion](https://user-images.githubusercontent.com/59626648/207260296-546b8d85-3d17-44a4-8021-bf16e8308e99.png)
 
+![Donaciones](https://user-images.githubusercontent.com/59626648/207262354-8ffdf829-fa23-458d-86a9-12189281dd07.jpeg)
+![Presupuestos](https://user-images.githubusercontent.com/59626648/207262439-05d294ff-9a7f-4b2e-83b2-275592a1917d.jpeg)
+
+
 Flujo para Verificar una Donacion con una Entidad Financiera
 ![flujo Verificar Donacion](https://user-images.githubusercontent.com/59626648/207260638-24561057-802a-4bd0-8b49-7ddb6b0f28ed.png)
+![Estado Donacion](https://user-images.githubusercontent.com/59626648/207262481-67d61a71-50ae-4a19-be1f-502e558f2a5a.jpeg)
+
