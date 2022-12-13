@@ -40,3 +40,10 @@ Flujo Expuesto
 
 ![image](https://user-images.githubusercontent.com/70820314/206942709-c1eaa4c7-8cfc-48a5-8a7a-c6baf80ea0b7.png)
 
+
+Flujo para Realizar una Donacion
+
+![flujo Donar Fundacion](https://user-images.githubusercontent.com/59626648/207260296-546b8d85-3d17-44a4-8021-bf16e8308e99.png)
+
+Flujo para Verificar una Donacion con una Entidad Financiera
+![flujo Verificar Donacion](https://user-images.githubusercontent.com/59626648/207260638-24561057-802a-4bd0-8b49-7ddb6b0f28ed.png)
